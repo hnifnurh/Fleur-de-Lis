@@ -1,0 +1,138 @@
+/*font*/
+.montserrat-light {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.montserrat-reguler {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.montserrat-semi-bold {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.navbar {
+  height: 10vh;
+}
+
+.detail-button {
+  height: 50px;
+  width: 25px;
+}
+
+.vh-100 {
+  height: 100vh;
+}
+
+.vh-90 {
+  height: 90vh;
+}
+
+.vh-50 {
+  height: 50vh;
+}
+
+.vh-30 {
+  height: 20vh;
+}
+
+.vh-20 {
+  height: 20vh;
+}
+
+.vh-10 {
+  height: 10vh;
+}
+
+.h-500 {
+  height: 500px;
+}
+
+/*desktop default*/
+
+.trending-2xl {
+  width: 1300px;
+  height: 650px;
+}
+
+.primary-2xl {
+  width: 450px;
+  height: 650px;
+}
+
+.features-2xl {
+  width: 300px;
+  height: 450px;
+}
+
+.men-2xl {
+  width: 500px;
+  height: 750px;
+}
+
+.card-zoom {
+  transition: all;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.card-zoom-image {
+  display: absolute;
+  background-position: center;
+  background-size: cover;
+}
+
+.card-zoom-image:hover {
+  transform: scale(1.1);
+}
+
+.login {
+  width: 300px;
+}
+
+.box {
+  height: 60px;
+  border: 1px solid #1A1F23;
+}
+
+.loginbutton {
+  width: 300px;
+  height: 60px;
+  color: #F4F5F6;
+}
+
+.continuebutton {
+  width: 300px;
+  height: 60px;
+  color: #1A1F23;
+  border: 1px solid #1A1F23;;
+}
+
+.option {
+  color: #1A1F23;
+}
+
+
+/*media query*/
+
+@media (min-width: 640px) {
+  .features-2xl {
+    width: 600px;
+    height: 750px;
+  }
+}
+
+@media (min-width: 768px) {
+  .features-2xl {
+    width: 500px;
+    height: 650px;
+  }
+}
